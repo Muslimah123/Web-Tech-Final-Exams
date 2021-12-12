@@ -116,7 +116,7 @@ if(isset($_POST["reg_submit"])) {
             {
                 die('Error: ' . mysqli_error($con));
             }
-            header("Location: ../ebill/user/index.php");
+            header("Location: index.php");
         }
     }
 ?>
